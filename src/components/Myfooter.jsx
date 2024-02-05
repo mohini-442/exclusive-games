@@ -9,7 +9,9 @@ const Myfooter = () => {
     const year = date.getFullYear();
     return (
         <div className="bg-[#000000] md:pb-5 pb-8 pt-10 relative z-[2]">
-            <div className="max-w-[1140px] px-3 mx-auto">
+            <div className="max-w-[1140px] px-3 mx-auto" data-aos="fade-up"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
                 <div className="flex flex-row flex-wrap -mx-3 pb-12">
                     <div className="xl:w-5/12 px-3 w-full pt-7" data-aos="fade-down-right">
                         <img src={logo} alt="footlogo" className="cursor-pointer" />
@@ -151,10 +153,10 @@ const Myfooter = () => {
             </div>
             <div className="border-t border-[#191919]"></div>
             <p className=" text-center text-[#808080] text-base font-inter leading-[25px] pt-5" >
-                © Juegos exclusivos - Todos los derechos reservados{year}
+                © Juegos exclusivos - Todos los derechos reservados {year}
             </p>
-            <img src={e1} alt="e1" className="absolute bottom-[0%] left-[0%]" />
-            <img src={e2} alt="e2" className="absolute top-[3%] right-[0%]" />
+            <img src={e1} alt="e1" className="absolute bottom-[0%] left-[0%] z-[-1]  hidden md:block" />
+            <img src={e2} alt="e2" className="absolute top-[3%] right-[0%] z-[-1]  hidden md:block" />
             {/* <div className="absolute  bottom-0 bg-gradient w-[170px] h-[170px] opacity-[50%] left-[-85px]"></div> */}
         </div>
     );

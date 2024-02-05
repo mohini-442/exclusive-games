@@ -5,7 +5,9 @@ import skyellipse1 from '../assets/images/skyellpise1.png'
 const Silver = () => {
     return (
         <>
-            <div className='max-w-[1140px] px-3 mx-auto py-12'>
+            <div className='max-w-[1140px] px-3 mx-auto py-12' data-aos="fade-up"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
                 <h2 className='text-[48px] font-normal font-anton text-white text-center'>Nuestras ofertas</h2>
                 <p className='font-inter font-medium text-[16px] text-white text-center pt-2'>Te ofrecemos las mejores experiencias de juegos para tus clientes.</p>
                 <div className='max-w-[1140px] mt-14 bg-gradient2 relative z-2 border-[0.5px] border-solid border-gradient rounded-[16px] p-[57px_40px_32px_46px]'>
@@ -16,7 +18,7 @@ const Silver = () => {
                                 <img className='absolute top-[-26%] left-[-8%] z-[-1]' src={skyellipse1} alt="skyellipse1" />
                             </div>
                         </div>
-                        <div className='lg:w-5/12 w-full px-3 flex  flex-col items-center lg:items-start text-center'>
+                        <div className='lg:w-5/12 w-full px-3 flex  flex-col items-center lg:items-start text-center lg:text-start'>
                             <h2 className='text-[32px] font-normal font-anton text-white'>Silver</h2>
                             <p className='text-[16px] font-medium text-[#CDD2D3] font-inter pt-3'>Diseño predeterminado, atractivo y fácil de navegar, tecnología HTLM5.</p>
                             <h2 className='text-[48px] font-normal text-white font-anton'>$5000</h2>

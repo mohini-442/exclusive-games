@@ -52,110 +52,124 @@ const Myaccordian = () => {
         <div className="relative z-[2]">
             <div className="max-w-[970px] mx-auto px-3 py-12">
                 <div className="">
-                    <h2 className=" text-5xl font-anton leading-[120%] font-normal text-center pb-[60px] text-white">
+                    <h2 className="text-[42px] sm:text-5xl font-anton leading-[120%] font-normal text-center pb-[60px] text-white" data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                         Preguntas más frecuentes
                     </h2>
                     <Accordion
-                        className=" border-[#80898D] border mb-8 rounded-[10px] py-4 px-5"
+                        className=" border-[#80898D] border mb-8 rounded-[10px] py-4 px-5" data-aos="fade-up"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine"
                         open={open === 1}
                         icon={<Icon id={1} open={open} />}
                     >
                         <AccordionHeader
                             onClick={() => handleOpen(1)}
-                            className="font-anton text-[20px] sm:text-[16px] md:text-[20px] py-0 text-start font-normal text-white leading-[130%] border-0 "
+                            className="font-anton text-[18px] sm:text-[20px] md:text-[20px] py-0 text-start font-normal text-white leading-[130%] border-0 "
                         >
                             ¿Cuáles son las ventajas de elegir Juegos Exclusivos para mis
                             plataformas de juegos?
                         </AccordionHeader>
-                        <AccordionBody className="font-inter text-base md:text-[16px] font-medium leading-[160%] text-[#CCD0D1] max-w-[880px] pt-2 pb-0 ">
+                        <AccordionBody className="font-inter text-[14px] sm:text-base md:text-[16px] font-medium leading-[160%] text-[#CCD0D1] max-w-[880px] pt-2 pb-0 ">
                             En Exclusive Games, ofrecemos experiencias únicas y personalizadas,
                             respaldadas por más de 15 años de dedicación al desarrollo de
                             multiplataformas para juegos de azar.
                         </AccordionBody>
                     </Accordion>
                     <Accordion
-                        className=" border-[#80898D] border mb-8 rounded-[10px] py-4 px-5  overflow-hidden"
+                        className=" border-[#80898D] border mb-8 rounded-[10px] py-4 px-5  overflow-hidden" data-aos="fade-up"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine"
                         open={open === 2}
                         icon={<Icon id={2} open={open} />}
                     >
                         <AccordionHeader
                             onClick={() => handleOpen(2)}
-                            className="font-anton text-[20px] sm:text-[16px] md:text-[20px] py-0 text-start font-normal text-white leading-[130%] border-0 "
+                            className="font-anton text-[16px] sm:text-[20px] py-0 text-start font-normal text-white leading-[130%] border-0 "
                         >
                             {" "}
                             ¿Cómo garantizan la seguridad de las operaciones en sus juegos?
                         </AccordionHeader>
-                        <AccordionBody className="font-anter text-base md:text-[16px] font-medium leading-[160%] text-[#CCD0D1] max-w-[880px] pt-2 pb-0 ">
+                        <AccordionBody className="font-anter text-[14px] sm:text-[16px] font-medium leading-[160%] text-[#CCD0D1] max-w-[880px] pt-2 pb-0 ">
                             En Exclusive Games, ofrecemos experiencias únicas y personalizadas,
                             respaldadas por más de 15 años de dedicación al desarrollo de
                             multiplataformas para juegos de azar.
                         </AccordionBody>
                     </Accordion>
                     <Accordion
-                        className=" border-[#80898D] border mb-8 rounded-[10px] py-4 px-5 "
+                        className=" border-[#80898D] border mb-8 rounded-[10px] py-4 px-5 " data-aos="fade-up"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine"
                         open={open === 3}
                         icon={<Icon id={3} open={open} />}
                     >
                         <AccordionHeader
                             onClick={() => handleOpen(3)}
-                            className="font-anton text-[20px] sm:text-[16px] md:text-[20px] py-0 text-start font-normal text-white leading-[130%] border-0 "
+                            className="font-anton text-[16px] sm:text-[20px] py-0 text-start font-normal text-white leading-[130%] border-0 "
                         >
                             {" "}
                             ¿Cuáles son las opciones de juego disponibles en las versiones
                             Silver, Luxury y Platinum?
                         </AccordionHeader>
-                        <AccordionBody className="font-inter text-base md:text-[16px] font-medium leading-[160%] text-[#CCD0D1] max-w-[880px] pt-2 pb-0 ">
+                        <AccordionBody className="font-inter text-[14px] sm:text-[16px] font-medium leading-[160%] text-[#CCD0D1] max-w-[880px] pt-2 pb-0 ">
                             En Exclusive Games, ofrecemos experiencias únicas y personalizadas,
                             respaldadas por más de 15 años de dedicación al desarrollo de
                             multiplataformas para juegos de azar.
                         </AccordionBody>
                     </Accordion>
                     <Accordion
-                        className=" border-[#80898D] border mb-8 rounded-[10px] py-4 px-5 "
+                        className=" border-[#80898D] border mb-8 rounded-[10px] py-4 px-5 " data-aos="fade-up"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine"
                         open={open === 4}
                         icon={<Icon id={4} open={open} />}
                     >
                         <AccordionHeader
                             onClick={() => handleOpen(4)}
-                            className="font-anton text-[20px] sm:text-[16px] md:text-[20px] py-0 text-start font-normal text-white leading-[130%] border-0 "
+                            className="font-anton text-[16px] sm:text-[20px] py-0 text-start font-normal text-white leading-[130%] border-0 "
                         >
                             ¿Cuánto tiempo lleva crear una plataforma con Juegos Exclusivos?
                         </AccordionHeader>
-                        <AccordionBody className="font-inter text-base md:text-[16px] font-medium leading-[160%] text-[#CCD0D1] max-w-[880px] pt-2 pb-0 ">
+                        <AccordionBody className="font-inter text-[14px] sm:text-[16px] font-medium leading-[160%] text-[#CCD0D1] max-w-[880px] pt-2 pb-0 ">
                             En Exclusive Games, ofrecemos experiencias únicas y personalizadas,
                             respaldadas por más de 15 años de dedicación al desarrollo de
                             multiplataformas para juegos de azar.
                         </AccordionBody>
                     </Accordion>
                     <Accordion
-                        className=" border-[#80898D] border mb-8 rounded-[10px] py-4 px-5 "
+                        className=" border-[#80898D] border mb-8 rounded-[10px] py-4 px-5 " data-aos="fade-up"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine"
                         open={open === 5}
                         icon={<Icon id={5} open={open} />}
                     >
                         <AccordionHeader
                             onClick={() => handleOpen(5)}
-                            className="font-anton text-[20px] sm:text-[16px] md:text-[20px] py-0 text-start font-normal text-white leading-[130%] border-0 "
+                            className="font-anton text-[16px] sm:text-[20px] py-0 text-start font-normal text-white leading-[130%] border-0 "
                         >
                             ¿Qué métodos de pago aceptan?
                         </AccordionHeader>
-                        <AccordionBody className="font-inter text-base md:text-[16px] font-medium leading-[160%] text-[#CCD0D1] max-w-[880px] pt-2 pb-0 ">
+                        <AccordionBody className="font-inter text-[14px] sm:text-[16px] font-medium leading-[160%] text-[#CCD0D1] max-w-[880px] pt-2 pb-0 ">
                             En Exclusive Games, ofrecemos experiencias únicas y personalizadas,
                             respaldadas por más de 15 años de dedicación al desarrollo de
                             multiplataformas para juegos de azar.
                         </AccordionBody>
                     </Accordion>
                     <Accordion
-                        className=" border-[#80898D] border mb-8 rounded-[10px] py-4 px-5 "
+                        className=" border-[#80898D] border mb-8 rounded-[10px] py-4 px-5 " data-aos="fade-up"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine"
                         open={open === 6}
                         icon={<Icon id={6} open={open} />}
                     >
                         <AccordionHeader
                             onClick={() => handleOpen(6)}
-                            className="font-anton text-[20px] sm:text-[16px] md:text-[20px] py-0 text-start font-normal text-white leading-[130%] border-0 "
+                            className="font-anton text-[16px] sm:text-[20px] py-0 text-start font-normal text-white leading-[130%] border-0 "
                         >
                             ¿Puedo probar sus juegos antes de comprometerme?
                         </AccordionHeader>
-                        <AccordionBody className="font-inter text-base md:text-[16px] font-medium leading-[160%] text-[#CCD0D1] max-w-[880px] pt-2 pb-0 ">
+                        <AccordionBody className="font-inter text-[14px] sm:text-[16px] font-medium leading-[160%] text-[#CCD0D1] max-w-[880px] pt-2 pb-0 ">
                             En Exclusive Games, ofrecemos experiencias únicas y personalizadas,
                             respaldadas por más de 15 años de dedicación al desarrollo de
                             multiplataformas para juegos de azar.
@@ -163,7 +177,7 @@ const Myaccordian = () => {
                     </Accordion>
                 </div>
             </div>
-            <img src={sky2} alt="sky2" className="absolute top-[-66%] z-[-1] left-[0%]" />
+            <img src={sky2} alt="sky2" className="absolute top-[-35%] z-[-1] left-[0%] h-[92%]  hidden md:block" />
         </div>
     );
 };

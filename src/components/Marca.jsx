@@ -11,13 +11,13 @@ const Marca = () => {
     return (
         <div className='bg-white py-16 lg:py-0'>
             <div className="max-w-[1140px] mx-auto px-3">
-                <h2 className=" font-anton text-[#00141B] text-5xl text-center mb-[60px]">
+                <h2 className=" font-anton text-[#00141B] text-[42px] sm:text-5xl text-center sm:mb-[60px]" data-aos="fade-up">
                     Nuestros Atributos de Marca
                 </h2>
                 <div className="flex flex-wrap flex-row -mx-3 relative pt-8 justify-center">
                     <img src={arrow1} alt="a" className="hidden lg:block absolute left-[19%] top-[12%]" />
                     <img src={arrow2} alt="a" className="hidden lg:block absolute right-[19%] top-[28%]" />
-                    <div className="lg:w-1/3 sm:w-1/2 w-full px-3  flex justify-center lg:justify-start">
+                    <div className="lg:w-1/3 sm:w-1/2 w-full px-3  flex justify-center lg:justify-start" data-aos="fade-right">
                         <div className="max-w-[263px] flex flex-col items-center">
                             <div className='w-[100px] h-[100px] rounded-[73px] bg-[#f5fff5] flex items-center justify-center'>
                                 <img src={img1} alt="img1" />
@@ -31,7 +31,7 @@ const Marca = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="lg:w-1/3 sm:w-1/2 w-full px-3 flex justify-center  pt-12 sm:pt-0">
+                    <div className="lg:w-1/3 sm:w-1/2 w-full px-3 flex justify-center  pt-12 sm:pt-0" data-aos="fade-up">
                         <div className="max-w-[235px] flex flex-col items-center">
                             <div className='w-[100px] h-[100px] rounded-[73px] bg-[#f5fff5] flex items-center justify-center'>
                                 <img src={img2} alt="img2" />
@@ -40,7 +40,7 @@ const Marca = () => {
                             <p className="text-center font-inter text-base  font-medium leading-[25.6px] text-[#00141B]">Somos creadores de cambios que exploran nuevas formas de entretenimiento.</p>
                         </div>
                     </div>
-                    <div className="lg:w-1/3 sm:w-1/2 w-full px-3 flex justify-center lg:justify-end pt-12 lg:pt-0">
+                    <div className="lg:w-1/3 sm:w-1/2 w-full px-3 flex justify-center lg:justify-end pt-12 lg:pt-0" data-aos="fade-left">
                         <div className="max-w-[244px] flex flex-col items-center">
                             <div className='w-[100px] h-[100px] rounded-[73px] bg-[#f5fff5] flex items-center justify-center'>
                                 <img src={img3} alt="img3" />

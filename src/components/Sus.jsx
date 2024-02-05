@@ -1,18 +1,23 @@
 import React from 'react'
 import jackpot from '../assets/images/jackpot.webp'
 import sky2 from '../assets/images/sky2.png'
+import glow from '../assets/images/glow.png'
 
 function Sus() {
     return (
         <>
-            <div className='relative'>
-                <div className='max-w-[1140px] mx-auto px-3 pb-28'>
+            <div className='relative z-[2]'>
+                <div className='max-w-[1140px] mx-auto px-3 pb-12 sm:pb-28'>
                     <div className='flex flex-row flex-wrap -mx-3 '>
-                        <div className='lg:w-1/2 w-full px-3'>
+                        <div className='lg:w-1/2 w-full px-3' data-aos="fade-right"
+                            data-aos-offset="300"
+                            data-aos-easing="ease-in-sine">
                             <img src={jackpot} alt="logo" className='lg:w-full w-[70%] mx-auto pr-4' />
                         </div>
-                        <div className='lg:w-1/2 w-full px-3 lg:pt-4 pt-10 flex items-center lg:items-start flex-col'>
-                            <h2 className='font-anton font-normal text-[48px]  text-[#FFFF] leading-[57px]'>Potenciando sus elecciones</h2>
+                        <div className='lg:w-1/2 w-full px-3 lg:pt-4 pt-10 flex items-center lg:items-start flex-col' data-aos="fade-left"
+                            data-aos-offset="300"
+                            data-aos-easing="ease-in-sine">
+                            <h2 className='font-anton font-normal text-[42px] sm:text-[48px]  text-[#FFFF] leading-[57px] text-center lg:text-start'>Potenciando sus elecciones</h2>
                             <p className='font-inter font-medium text-base leading-[25px] text-[#d2d8da] pt-4'>Con Exclusive Game lo mejor está de tu lado.</p>
                             <div className='flex gap-3 items-center pt-6'>
                                 <span>
@@ -65,11 +70,12 @@ function Sus() {
                                 </span>
                                 <p className='font-inter font-medium text-base leading-[25px] text-[#d2d8da]'>Aplicación para android y windows de regalo.</p>
                             </div>
-                            <p className='font-inter font-medium text-base leading-[25px] text-[#d2d8da] pt-5'>Te reintegramos todo lo invertido en fichas en la moneda que elijas.</p>
+                            <p className='font-inter font-medium text-base leading-[25px] text-[#d2d8da] pt-5 text-center sm:text-start'>Te reintegramos todo lo invertido en fichas en la moneda que elijas.</p>
                         </div>
                     </div>
                 </div>
-                <img src={sky2} alt="sky2"  className='absolute top-[-151%] left-[0%]'/>
+                <img src={sky2} alt="sky2" className='absolute top-[-151%] left-[0%] z-[-1] hidden xl:block' />
+                <img src={glow} alt="glow" className='absolute top-[32%] left-[43%]  z-[-1] hidden md:block' />
             </div>
         </>
     )

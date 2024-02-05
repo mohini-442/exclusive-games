@@ -46,7 +46,7 @@ const Mynav = () => {
                         </li>
                     </ul>
                     <li className='lg:block hidden '>
-                        <a href="" className='p-[13px_46px_13px_46px] text-base font-bold font-inter text-[#FFFFFF] hover:bg-gradient duration-[0.5s] border-solid border-[1px] rounded-[41px] gap-[10px] relative after:absolute after:content-[url(./assets/images/wline.png)] after:top-[26px] after:left-[-6px] '>Acceso</a>
+                        <a href="" className='p-[13px_46px_13px_46px] text-base font-bold font-inter text-[#FFFFFF] hover:shadow-[0px_opx_18px #fff] duration-[0.5s] border-solid border-[1px] rounded-[41px] gap-[10px] relative after:absolute after:content-[url(./assets/images/wline.png)] after:top-[26px] after:left-[-6px] '>Acceso</a>
                     </li>
                     <label className=" lg:hidden" onClick={nav}>
                         {show ? (
