@@ -55,8 +55,8 @@ const Elegirnos = () => {
                             </div>
                         </div>
                     </div>
-                    <img src={sky2} alt="sky2" className='absolute top-[-100%] left-[0%] z-[-1]' />
-                    <img src={skyb} alt="sky2" className='absolute bottom-[-91%] right-[0%] z-[-1]' />
+                    <img src={sky2} alt="sky2" className='absolute top-[-100%] left-[0%]' />
+                    <img src={skyb} alt="sky2" className='absolute bottom-[-91%] right-[0%]' />
                 </div>
             </div>
         </>

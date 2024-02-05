@@ -1,6 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/* 
-*{
-    border: 1px solid red !important;
-} */
+.grounded-radiants {
+    position: relative;
+    border: 1px solid transparent;
+    border-radius: 16px;
+    background-color: #051d22;
+    background-clip: padding-box;
+    padding: 10px;
+}
+
+.grounded-radiants::after {
+    position: absolute;
+    top: -1px;
+    bottom: -1px;
+    left: -1px;
+    right: -1px;
+    background: linear-gradient(306.99deg, rgba(81, 200, 239, 0.5) -13.72%, rgba(122, 245, 122, 0.5) 102.02%),
+        linear-gradient(306.99deg, rgba(81, 200, 239, 0.04) -13.72%, rgba(122, 245, 122, 0.04) 102.02%);
+    content: '';
+    z-index: -1;
+    border-radius: 16px;
+}

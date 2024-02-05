@@ -75,10 +75,10 @@ const Luxury = () => {
                                 <button className='bg-gradient font-inter font-bold text-base leading-[25px] p-[13px_46px_13px_46px] rounded-[41px] mt-2 relative after:absolute after:content-[url(./assets/images/gline.png)] after:top-[31px] after:left-[-6px] '>Comprar ahora</button>
                             </div>
                         </div>
-                        <img src={ticki1} alt="ticki1" className='absolute top-[15%] left-[16%] z-[-1]'/>
-                        <img src={ticki2} alt="ticki2" className='absolute bottom-[19%] right-[16%] z-[-1]' />
-                        <img src={card1} alt="ticki2" className='absolute top-[19%] right-[12%] z-[-1]' />
-                        <img src={card2} alt="ticki1" className='absolute bottom-[15%] left-[10%] z-[-1]' />
+                        <img src={ticki1} alt="ticki1" className='absolute top-[15%] left-[16%] z-[-1] hidden lg:block'/>
+                        <img src={ticki2} alt="ticki2" className='absolute bottom-[19%] right-[16%] z-[-1] hidden lg:block' />
+                        <img src={card1} alt="ticki2" className='absolute top-[19%] right-[12%] z-[-1] hidden lg:block' />
+                        <img src={card2} alt="ticki1" className='absolute bottom-[15%] left-[10%] z-[-1] hidden lg:block' />
                     </div>
                 </div>
                 <div className='max-w-[1140px] px-3 mx-auto'>

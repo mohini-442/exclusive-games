@@ -34,7 +34,7 @@ const Slots = () => {
         </div>
     </div>))
     return (
-        <div className="lg:mt-[100px] pt-16">
+        <div className="lg:mt-[100px] pt-20">
             <h2 className=" font-anton text-5xl text-center leading-[57.6px] text-[#00141B] font-normal  mb-4 ">
                 Slots
             </h2>
