@@ -20,7 +20,7 @@ import Myfooter from './components/Myfooter';
 function App() {
   return (
     <>
-      <div className='bg-[#00141b]'>
+      <div className='bg-[#00141b] overflow-hidden'>
         <div className='bg-[url(./assets/images/heroimage.webp)] bg-cover w-full h-full bg-center bg-no-repeat min-h-[90vh]'>
           <div className='bg-[url(./assets/images/navbg.webp)] bg-cover bg-center bg-no-repeat'>
             <Mynav />
