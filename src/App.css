@@ -2,7 +2,7 @@
 
 .grounded-radiants {
     position: relative;
-    border: 1px solid transparent;
+    border: 0.5px solid transparent;
     border-radius: 16px;
     background-color: #051d22;
     background-clip: padding-box;

@@ -11,7 +11,7 @@ const Mynav = () => {
     }
     return (
         <>
-            <div className="max-w-[1140px] mx-auto px-3 py-5">
+            <div className="max-w-[1140px] mx-auto px-3 py-6">
                 <div className="flex items-center justify-between">
                     <img src={logo} alt="logo" className='cursor-pointer' />
                     <ul

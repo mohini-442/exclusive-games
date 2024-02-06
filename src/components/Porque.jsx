@@ -11,7 +11,7 @@ const Porque = () => {
                             data-aos-offset="300"
                             data-aos-easing="ease-in-sine">
                             <h2 className='font-anton font-normal text-[42px] sm:text-[48px]'>Por qué elegirnos</h2>
-                            <p className='font-inter font-medium text-[16px] text-[#00141B] text-center lg:text-start pt-2'>Con Exclusive Games tenés Exclusivos beneficios. Te reintegramos todo lo invertido en fichas en la moneda que elijas. En Exclusive Games siempre sumamos nuevos juegos. Juegos crash, los juegos interactivos que más pide la gente. Con Exclusive Games empezás a ganar ya! Creamos tu plataforma en solo 2 semanas.</p>
+                            <p className='font-inter font-medium text-[16px] text-[#00141B] text-center lg:text-start pt-2 opacity-[80%]'>Con Exclusive Games tenés Exclusivos beneficios. Te reintegramos todo lo invertido en fichas en la moneda que elijas. En Exclusive Games siempre sumamos nuevos juegos. Juegos crash, los juegos interactivos que más pide la gente. Con Exclusive Games empezás a ganar ya! Creamos tu plataforma en solo 2 semanas.</p>
                             <div className='flex'>
                                 <button className='bg-gradient hover:text-white duration-[0.5s] font-inter font-bold text-base leading-[25px] p-[13px_46px_13px_46px] rounded-[41px] mt-6 sm:mt-12 relative after:absolute after:content-[url(./assets/images/gline.png)] after:top-[31px] after:left-[-6px]'>Aprende más</button>
                             </div>

@@ -20,8 +20,7 @@ const Ellos = () => {
         data-aos-offset="300"
         data-aos-easing="ease-in-sine">
         <div className="max-w-[364px] rounded-lg bg-[url(./assets/images/ellos1.webp)] w-full h-[265px]  overflow-hidden relative " style={{ backgroundImage: `url(${cards.bg})` }}>
-            <div className="absolute w-full  bg-[#000]/[0.7] max-w-[364px] h-[256px] flex justify-center top-[-100%] group-hover:top-0 left-0 items-center duration-500 hover:shadow-[7px_9px_15px_0px_#00000033]"><button className="text-white opacity-100 relative z-[2] border border-white rounded-full  after:content-[url(./assets/images/wline.webp
-            )]  py-[13px] px-[46px] border-solid after:absolute after:left-[-5%]  after:bottom-[-35%] font-inter font-bold text-base leading-[25.6px]">Rcasinovip</button></div>
+            <div className="absolute w-full  bg-[#000]/[0.7] max-w-[364px] h-[256px] flex justify-center top-[-103%] group-hover:top-0 left-0 items-center duration-500 hover:shadow-[7px_9px_15px_0px_#00000033]"><button className="text-white hover:bg-white hover:text-black duration-[0.5s] opacity-100 relative z-[2] border border-white rounded-full  after:content-[url(./assets/images/wline.webp)]  py-[13px] px-[46px] border-solid after:absolute after:left-[-5%]  after:bottom-[-35%] font-inter font-bold text-base leading-[25.6px]">Rcasinovip</button></div>
         </div>
     </div>))
     return (
@@ -29,12 +28,12 @@ const Ellos = () => {
             data-aos-offset="300"
             data-aos-easing="ease-in-sine">
             <div className='max-w-[1140px] mx-auto px-3 lg:pb-24 pb-12' >
-                <h2 className='font-anton font-normal text-[48px] text-white text-center'>Ellos eligieron apostar con nosotros</h2>
+                <h2 className='font-anton font-normal text-[32px] sm:text-[38px] md:text-[48px] text-white text-center'>Ellos eligieron apostar con nosotros</h2>
                 <div className="flex flex-wrap flex-row -mx-3 pt-12 justify-center">
                     {card}
                 </div>
                 <p className='font-inter font-semibold text-[16px] text-white max-w-[883px] text-center mx-auto pt-2'>Clientes satisfechos que confiaron en Exclusive Games y han disfrutado de emocionantes experiencias de juego.
-                    Ahora, la próxima apuesta está en tus manos.<br/>
+                    Ahora, la próxima apuesta está en tus manos.<br />
                     Elige ganar. Elige exclusive game.</p>
             </div>
             <img src={sky2} alt="sky2" className='absolute top-[-82%] right-[-8%] z-[-1]  hidden md:block' />

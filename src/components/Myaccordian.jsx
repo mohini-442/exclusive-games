@@ -50,15 +50,15 @@ const Myaccordian = () => {
     const handleOpen = (value) => setOpen(open === value ? 0 : value);
     return (
         <div className="relative z-[2]">
-            <div className="max-w-[970px] mx-auto px-3 py-12">
+            <div className="max-w-[970px] mx-auto px-3 pt-6 md:pt-12 pb-12">
                 <div className="">
-                    <h2 className="text-[42px] sm:text-5xl font-anton leading-[120%] font-normal text-center pb-[60px] text-white" data-aos="fade-right"
+                    <h2 className="md:text-[42px] text-[38px] uppercase sm:text-5xl font-anton leading-[120%] font-normal text-center pb-[30px] md:pb-[60px] text-white" data-aos="fade-right"
                         data-aos-offset="300"
                         data-aos-easing="ease-in-sine">
                         Preguntas más frecuentes
                     </h2>
                     <Accordion
-                        className=" border-[#80898D] border mb-8 rounded-[10px] py-4 px-5" data-aos="fade-up"
+                        className=" border-[#80898D] border mb-3 md:mb-8 rounded-[10px] py-4 px-5" data-aos="fade-up"
                         data-aos-offset="300"
                         data-aos-easing="ease-in-sine"
                         open={open === 1}
@@ -78,7 +78,7 @@ const Myaccordian = () => {
                         </AccordionBody>
                     </Accordion>
                     <Accordion
-                        className=" border-[#80898D] border mb-8 rounded-[10px] py-4 px-5  overflow-hidden" data-aos="fade-up"
+                        className=" border-[#80898D] border mb-3 md:mb-8 rounded-[10px] py-4 px-5  overflow-hidden" data-aos="fade-up"
                         data-aos-offset="300"
                         data-aos-easing="ease-in-sine"
                         open={open === 2}
@@ -98,7 +98,7 @@ const Myaccordian = () => {
                         </AccordionBody>
                     </Accordion>
                     <Accordion
-                        className=" border-[#80898D] border mb-8 rounded-[10px] py-4 px-5 " data-aos="fade-up"
+                        className=" border-[#80898D] border mb-3 md:mb-8 rounded-[10px] py-4 px-5 " data-aos="fade-up"
                         data-aos-offset="300"
                         data-aos-easing="ease-in-sine"
                         open={open === 3}
@@ -119,7 +119,7 @@ const Myaccordian = () => {
                         </AccordionBody>
                     </Accordion>
                     <Accordion
-                        className=" border-[#80898D] border mb-8 rounded-[10px] py-4 px-5 " data-aos="fade-up"
+                        className=" border-[#80898D] border mb-3 md:mb-8 rounded-[10px] py-4 px-5 " data-aos="fade-up"
                         data-aos-offset="300"
                         data-aos-easing="ease-in-sine"
                         open={open === 4}
@@ -138,7 +138,7 @@ const Myaccordian = () => {
                         </AccordionBody>
                     </Accordion>
                     <Accordion
-                        className=" border-[#80898D] border mb-8 rounded-[10px] py-4 px-5 " data-aos="fade-up"
+                        className=" border-[#80898D] border mb-3 md:mb-8 rounded-[10px] py-4 px-5 " data-aos="fade-up"
                         data-aos-offset="300"
                         data-aos-easing="ease-in-sine"
                         open={open === 5}
@@ -157,7 +157,7 @@ const Myaccordian = () => {
                         </AccordionBody>
                     </Accordion>
                     <Accordion
-                        className=" border-[#80898D] border mb-8 rounded-[10px] py-4 px-5 " data-aos="fade-up"
+                        className=" border-[#80898D] border mb-3 md:mb-8 rounded-[10px] py-4 px-5 " data-aos="fade-up"
                         data-aos-offset="300"
                         data-aos-easing="ease-in-sine"
                         open={open === 6}

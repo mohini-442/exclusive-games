@@ -22,10 +22,10 @@ const Marca = () => {
                             <div className='w-[100px] h-[100px] rounded-[73px] bg-[#f5fff5] flex items-center justify-center'>
                                 <img src={img1} alt="img1" />
                             </div>
-                            <h3 className=" font-anton text-[#00141B] text-xl leading-[26px] font-normal text-center mb-2.5 pt-4">
+                            <h3 className=" font-anton text-[#00141B]  text-xl leading-[26px] font-normal text-center mb-2.5 pt-4">
                                 Inteligencia
                             </h3>
-                            <p className="text-center font-inter text-base  font-medium leading-[25.6px] text-[#00141B]">
+                            <p className="text-center font-inter text-base  font-medium leading-[25.6px] opacity-[80%] text-[#00141B]">
                                 Comprendemos a la perfección los gustos de las personas y el
                                 mundo del gaming.
                             </p>
@@ -37,7 +37,7 @@ const Marca = () => {
                                 <img src={img2} alt="img2" />
                             </div>
                             <h3 className="font-anton text-[#00141B] text-xl leading-[26px] font-normal text-center mb-2.5 pt-4">Proactividad</h3>
-                            <p className="text-center font-inter text-base  font-medium leading-[25.6px] text-[#00141B]">Somos creadores de cambios que exploran nuevas formas de entretenimiento.</p>
+                            <p className="text-center font-inter text-base opacity-[80%] font-medium leading-[25.6px] text-[#00141B]">Somos creadores de cambios que exploran nuevas formas de entretenimiento.</p>
                         </div>
                     </div>
                     <div className="lg:w-1/3 sm:w-1/2 w-full px-3 flex justify-center lg:justify-end pt-12 lg:pt-0" data-aos="fade-left">
@@ -46,7 +46,7 @@ const Marca = () => {
                                 <img src={img3} alt="img3" />
                             </div>
                             <h3 className="font-anton text-[#00141B] text-xl leading-[26px] font-normal text-center mb-2.5 pt-4">Innovación</h3>
-                            <p className="text-center font-inter text-base  font-medium leading-[25.6px] text-[#00141B]">Pensamos fuera de la caja para estar siempre un paso adelante.</p>
+                            <p className="text-center font-inter opacity-[80%] text-base  font-medium leading-[25.6px] text-[#00141B]">Pensamos fuera de la caja para estar siempre un paso adelante.</p>
                         </div>
                     </div>
                 </div>
