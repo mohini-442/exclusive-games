@@ -1,7 +1,7 @@
 import React from 'react'
-import ellos1 from '../assets/images/ellos1.png'
-import ellos2 from '../assets/images/ellos2.png'
-import ellos3 from '../assets/images/ellos3.png'
+import ellos1 from '../assets/images/ellos1.webp'
+import ellos2 from '../assets/images/ellos2.webp'
+import ellos3 from '../assets/images/ellos3.webp'
 import sky2 from '../assets/images/skyblue.png'
 
 
@@ -19,8 +19,9 @@ const Ellos = () => {
     const card = cards.map((cards, i) => (<div key={i} className="lg:w-1/3 sm:w-1/2 w-full px-3 flex justify-center group duration-[0.5s] mb-6" data-aos="fade-up"
         data-aos-offset="300"
         data-aos-easing="ease-in-sine">
-        <div className="max-w-[364px] rounded-lg bg-[url(./assets/images/ellos1.png)] w-full h-[265px]  overflow-hidden relative " style={{ backgroundImage: `url(${cards.bg})` }}>
-            <div className="absolute w-full  bg-[#000]/[0.7] max-w-[364px] h-[256px] flex justify-center top-[-100%] group-hover:top-0 left-0 items-center duration-500 hover:shadow-[7px_9px_15px_0px_#00000033]"><button className="text-white opacity-100 relative z-[2] border border-white rounded-full  after:content-[url(./assets/images/wline.png)]  py-[13px] px-[46px] border-solid after:absolute after:left-[-5%]  after:bottom-[-35%] font-inter font-bold text-base leading-[25.6px]">Rcasinovip</button></div>
+        <div className="max-w-[364px] rounded-lg bg-[url(./assets/images/ellos1.webp)] w-full h-[265px]  overflow-hidden relative " style={{ backgroundImage: `url(${cards.bg})` }}>
+            <div className="absolute w-full  bg-[#000]/[0.7] max-w-[364px] h-[256px] flex justify-center top-[-100%] group-hover:top-0 left-0 items-center duration-500 hover:shadow-[7px_9px_15px_0px_#00000033]"><button className="text-white opacity-100 relative z-[2] border border-white rounded-full  after:content-[url(./assets/images/wline.webp
+            )]  py-[13px] px-[46px] border-solid after:absolute after:left-[-5%]  after:bottom-[-35%] font-inter font-bold text-base leading-[25.6px]">Rcasinovip</button></div>
         </div>
     </div>))
     return (

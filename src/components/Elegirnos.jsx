@@ -1,8 +1,8 @@
 import React from 'react'
-import imgg from '../assets/images/777.png'
-import bulb from '../assets/images/bulb.png'
-import people from '../assets/images/pp.png'
-import ruppee from '../assets/images/ruppee.png'
+import imgg from '../assets/images/777.webp'
+import bulb from '../assets/images/blub.png'
+import people from '../assets/images/pp.webp'
+import ruppee from '../assets/images/ruppee.webp'
 import sky2 from '../assets/images/sky2.png'
 import skyb from '../assets/images/skyblue.png'
 

@@ -1,11 +1,11 @@
 import React from 'react'
-import platinum from '../assets/images/platinum.png'
+import platinum from '../assets/images/platinum.webp'
 import sky1 from '../assets/images/skyellpise1.png'
 import sky2 from '../assets/images/sky2.png'
-import ticki1 from '../assets/images/ticki1.png'
-import ticki2 from '../assets/images/ticki2.png'
-import card1 from '../assets/images/card1.png'
-import card2 from '../assets/images/card2.png'
+import ticki1 from '../assets/images/ticki1.webp'
+import ticki2 from '../assets/images/ticki2.webp'
+import card1 from '../assets/images/card1.webp'
+import card2 from '../assets/images/card2.webp'
 
 
 const Luxury = () => {
@@ -100,7 +100,7 @@ const Luxury = () => {
                                     <p className=' font-inter font-medium text-[16px] leading-[25px] text-white text-center pb-[40px] opacity-80'>Personalizable</p>
                                 </div>
                                 <div className='flex'>
-                                    <button className='hover:bg-gradient text-white font-inter font-bold text-base leading-[25px] p-[13px_46px_13px_46px] border-[1px] border-solid border-white rounded-[41px] relative after:absolute after:content-[url(./assets/images/wline.png)] duration-[0.5s] after:top-[31px] after:left-[-6px] '>Comprar ahora</button>
+                                    <button className='hover:bg-white hover:text-black text-white font-inter font-bold text-base leading-[25px] p-[13px_46px_13px_46px] border-[1px] border-solid border-white rounded-[41px] relative after:absolute after:content-[url(./assets/images/wline.webp)] duration-[0.5s] after:top-[31px] after:left-[-6px] '>Comprar ahora</button>
                                 </div>
                             </div>
                             <div className="lg:w-7/12 w-full px-3 pt-4">
@@ -112,7 +112,7 @@ const Luxury = () => {
                         </div>
                     </div>
                 </div>
-                <img src={sky2} alt="sky1" className='absolute top-[8%] left-[0%]  hidden md:block' />
+                <img src={sky2} alt="sky1" className='absolute top-[8%] left-[0%] z-[-1]  hidden md:block' />
             </div>
         </>
     )

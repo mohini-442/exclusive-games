@@ -1,9 +1,9 @@
 import React from 'react'
-import img1 from '../assets/images/img1.png'
-import img2 from '../assets/images/img2.png'
-import img3 from '../assets/images/img3.png'
-import arrow1 from '../assets/images/arrow1.png'
-import arrow2 from '../assets/images/arrow2.png'
+import img1 from '../assets/images/img1.webp'
+import img2 from '../assets/images/img2.webp'
+import img3 from '../assets/images/img3.webp'
+import arrow1 from '../assets/images/arrow1.webp'
+import arrow2 from '../assets/images/arrow2.webp'
 import Slots from './Slots'
 
 

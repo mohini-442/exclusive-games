@@ -1,5 +1,5 @@
 import React from 'react'
-import casino from '../assets/images/casino.png'
+import casino from '../assets/images/casino.webp'
 
 const Porque = () => {
     return (

@@ -13,7 +13,7 @@ const Mynav = () => {
         <>
             <div className="max-w-[1140px] mx-auto px-3 py-5">
                 <div className="flex items-center justify-between">
-                    <img src={logo} alt="logo" className='cursor-pointer'/>
+                    <img src={logo} alt="logo" className='cursor-pointer' />
                     <ul
                         className={`flex items-center gap-7 mobileView ${show ? "right-[-100%]" : "right-0"}`} >
                         <li>
@@ -42,11 +42,11 @@ const Mynav = () => {
                             </a>
                         </li>
                         <li className='lg:hidden block '>
-                            <a href="" className='p-[13px_46px_13px_46px] text-base font-bold font-inter text-[#FFFFFF] border-solid border-[1px] rounded-[41px] gap-[10px] duration-[0.5s] relative after:absolute after:content-[url(./assets/images/wline.png)] after:top-[31px] after:left-[-6px] '>Acceso</a>
+                            <a href="" className='p-[13px_46px_13px_46px] text-base font-bold font-inter text-[#FFFFFF] border-solid border-[1px] rounded-[41px] gap-[10px] duration-[0.5s] relative after:absolute after:content-[url(./assets/images/wline.webp)] after:top-[31px] after:left-[-6px] '>Acceso</a>
                         </li>
                     </ul>
                     <li className='lg:block hidden '>
-                        <a href="" className='p-[13px_46px_13px_46px] text-base font-bold font-inter text-[#FFFFFF] hover:shadow-[0px_opx_18px #fff] duration-[0.5s] border-solid border-[1px] rounded-[41px] gap-[10px] relative after:absolute after:content-[url(./assets/images/wline.png)] after:top-[26px] after:left-[-6px] '>Acceso</a>
+                        <a href="" className='p-[13px_46px] hover:bg-white hover:text-black text-base font-bold font-inter text-[#FFFFFF] hover:shadow-[0px_opx_18px #fff] duration-[0.5s] border-solid border-[1px] rounded-[41px] gap-[10px] relative after:absolute after:content-[url(./assets/images/wline.webp)] after:top-[26px] after:left-[-6px] '>Acceso</a>
                     </li>
                     <label className=" lg:hidden" onClick={nav}>
                         {show ? (

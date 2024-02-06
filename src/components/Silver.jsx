@@ -1,5 +1,5 @@
 import React from 'react'
-import cards from '../assets/images/cards.png'
+import cards from '../assets/images/cards.webp'
 import skyellipse1 from '../assets/images/skyellpise1.png'
 
 const Silver = () => {
@@ -72,7 +72,7 @@ const Silver = () => {
                                 <p className='text-[16px] font-medium text-[#CDD2D3] font-inter'>Tiempo de creación 2 a 3 semanas</p>
                             </div>
                             <div className='flex'>
-                                <button className='hover:bg-gradient text-white font-inter font-bold text-base leading-[25px] p-[13px_46px_13px_46px] border-[1px] border-solid border-white rounded-[41px] mt-12 relative after:absolute after:content-[url(./assets/images/wline.png)] duration-[0.5s] after:top-[31px] after:left-[-6px] '>Comprar ahora</button>
+                                <button className='hover:bg-white hover:text-black text-white font-inter font-bold text-base leading-[25px] p-[13px_46px_13px_46px] border-[1px] border-solid border-white rounded-[41px] mt-12 relative after:absolute after:content-[url(./assets/images/wline.webp)] duration-[0.5s] after:top-[31px] after:left-[-6px] '>Comprar ahora</button>
                             </div>
                         </div>
 

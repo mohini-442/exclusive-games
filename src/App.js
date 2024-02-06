@@ -42,7 +42,7 @@ function App() {
           <Myheader />
         </div>
         <Neusta />
-        <div className="lg:bg-[url(./assets/images/whitebg1.png)] bg-full bg-center bg-no-repeat lg:py-[273px] bg-size ">
+        <div className="lg:bg-[url(./assets/images/whitebg1.webp)] bg-full bg-center bg-no-repeat lg:py-[273px] bg-size ">
           <Marca />
         </div>
         <div className='bg-[url(./assets/images/bgimage2.webp)] bg-cover w-full h-full bg-center bg-no-repeat pb-[143px] pt-[60px]'>
@@ -50,7 +50,7 @@ function App() {
           <Lanza />
           <Jeugos />
         </div>
-        <div className='lg:bg-[url(./assets/images/bgwhite2.png)]  bg-center bg-no-repeat lg:py-[243px] bg-size w-full h-full'>
+        <div className='lg:bg-[url(./assets/images/bgwhite2.webp)]  bg-center bg-no-repeat lg:py-[243px] bg-size w-full h-full'>
           <Porque />
         </div>
         <Elegirnos />

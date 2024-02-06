@@ -1,10 +1,10 @@
 import React from 'react'
-import pic1 from '../assets/images/pic1.png';
-import pic2 from '../assets/images/pic2.png';
-import pic3 from '../assets/images/pic3.png';
-import pic4 from '../assets/images/pic4.png';
-import pic5 from '../assets/images/pic5.png';
-import pic6 from '../assets/images/pic6.png';
+import pic1 from '../assets/images/pic1.webp';
+import pic2 from '../assets/images/pic2.webp';
+import pic3 from '../assets/images/pic3.webp';
+import pic4 from '../assets/images/pic4.webp';
+import pic5 from '../assets/images/pic5.webp';
+import pic6 from '../assets/images/pic6.webp';
 
 
 const cards = [{
@@ -29,8 +29,8 @@ const cards = [{
 ]
 const Slots = () => {
     const card = cards.map((cards, i) => (<div key={i} className="lg:w-1/3 sm:w-1/2 w-full px-3 flex justify-center group duration-500 mb-6">
-        <div className="max-w-[364px] rounded-lg bg-[url(./assets/images/pic1.png)] w-full h-[265px]  overflow-hidden relative " style={{ backgroundImage: `url(${cards.bg})` }} data-aos="flip-left">
-            <div className="absolute w-full  bg-[#2C2B2B]/[0.8] max-w-[364px] h-[265px] flex justify-center top-[-100%] group-hover:top-0 left-0 items-center duration-500"><button className="text-white opacity-100 relative z-[2] border border-white after:content-[url(./assets/images/wline.png)]  rounded-full py-[13px] px-[46px] border-solid after:absolute after:left-[-5%]  after:bottom-[-31%] font-inter font-bold text-base leading-[25.6px]">Jugar</button></div>
+        <div className="max-w-[364px] rounded-lg bg-[url(./assets/images/pic1.webp)] w-full h-[265px]  overflow-hidden relative " style={{ backgroundImage: `url(${cards.bg})` }} data-aos="flip-left">
+            <div className="absolute w-full  bg-[#2C2B2B]/[0.8] max-w-[364px] h-[265px] flex justify-center top-[-100%] group-hover:top-0 left-0 items-center duration-500"><button className="text-white opacity-100 relative z-[2] border border-white after:content-[url(./assets/images/wline.webp)]  rounded-full py-[13px] px-[46px] border-solid after:absolute after:left-[-5%]  after:bottom-[-31%] font-inter font-bold text-base leading-[25.6px]">Jugar</button></div>
         </div>
     </div>))
     return (

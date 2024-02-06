@@ -18,7 +18,7 @@ function Jeugos() {
                             data-aos-easing="ease-in-sine">
                             <div className='relative overflow-hidden rounded-[8px]'>
                                 <img src={vevo1} alt="logo" className='w-full max-w-[364px] rounded-[8px]' />
-                                <div className="absolute w-full  bg-[#000]/[0.7] max-w-[364px] h-[256px] flex justify-center top-[-103%] group-hover:top-0 left-0 items-center duration-500 hover:shadow-[7px_9px_15px_0px_#00000033]"><button className="text-white opacity-100 relative z-[2] border border-white rounded-full  after:content-[url(./assets/images/wline.png)]  py-[13px] px-[46px] border-solid after:absolute after:left-[-5%]  after:bottom-[-35%] font-inter font-bold text-base leading-[25.6px]">Reproducir ahora</button></div>
+                                <div className="absolute w-full  bg-[#000]/[0.7] max-w-[364px] h-[256px] flex justify-center top-[-103%] group-hover:top-0 left-0 items-center duration-500 hover:shadow-[7px_9px_15px_0px_#00000033]"><button className="text-white opacity-100 relative z-[2] border border-white rounded-full  after:content-[url(./assets/images/wline.webp)]  py-[13px] px-[46px] border-solid after:absolute after:left-[-5%]  after:bottom-[-35%] font-inter font-bold text-base leading-[25.6px]">Reproducir ahora</button></div>
                             </div>
                         </div>
                         <div className='lg:w-4/12 sm:w-1/2 w-[90%] px-3 group pt-8 sm:pt-0 flex justify-center' data-aos="fade-up"
@@ -26,7 +26,7 @@ function Jeugos() {
                             data-aos-easing="ease-in-sine">
                             <div className='relative overflow-hidden rounded-[8px]'>
                                 <img src={vevo2} alt="logo" className='max-w-[364px] w-full rounded-[8px]' />
-                                <div className="absolute w-full  bg-[#000]/[0.7] max-w-[364px] h-[256px] flex justify-center top-[-103%] group-hover:top-0 left-0 items-center duration-500 hover:shadow-[7px_9px_15px_0px_#00000033]"><button className="text-white opacity-100 relative z-[2] border border-white rounded-full  after:content-[url(./assets/images/wline.png)]  py-[13px] px-[46px] border-solid after:absolute after:left-[-5%]  after:bottom-[-35%] font-inter font-bold text-base leading-[25.6px]">Reproducir ahora</button></div>
+                                <div className="absolute w-full  bg-[#000]/[0.7] max-w-[364px] h-[256px] flex justify-center top-[-103%] group-hover:top-0 left-0 items-center duration-500 hover:shadow-[7px_9px_15px_0px_#00000033]"><button className="text-white opacity-100 relative z-[2] border border-white rounded-full  after:content-[url(./assets/images/wline.webp)]  py-[13px] px-[46px] border-solid after:absolute after:left-[-5%]  after:bottom-[-35%] font-inter font-bold text-base leading-[25.6px]">Reproducir ahora</button></div>
                             </div>
                         </div>
                         <div className='lg:w-4/12 sm:w-1/2 w-[90%] px-3 group pt-8 lg:pt-0 flex justify-center' data-aos="fade-right"
@@ -34,7 +34,7 @@ function Jeugos() {
                             data-aos-easing="ease-in-sine">
                             <div className='relative overflow-hidden rounded-[8px]'>
                                 <img src={vevo3} alt="logo" className='w-full max-w-[364px] rounded-[8px]' />
-                                <div className="absolute w-full  bg-[#000]/[0.7] max-w-[364px] h-[256px] flex justify-center top-[-103%] group-hover:top-0 left-0 items-center duration-500 hover:shadow-[7px_9px_15px_0px_#00000033]"><button className="text-white opacity-100 relative z-[2] border border-white rounded-full  after:content-[url(./assets/images/wline.png)]  py-[13px] px-[46px] border-solid after:absolute after:left-[-5%]  after:bottom-[-35%] font-inter font-bold text-base leading-[25.6px]">Reproducir ahora</button></div>
+                                <div className="absolute w-full  bg-[#000]/[0.7] max-w-[364px] h-[256px] flex justify-center top-[-103%] group-hover:top-0 left-0 items-center duration-500 hover:shadow-[7px_9px_15px_0px_#00000033]"><button className="text-white opacity-100 relative z-[2] border border-white rounded-full  after:content-[url(./assets/images/wline.webp)]  py-[13px] px-[46px] border-solid after:absolute after:left-[-5%]  after:bottom-[-35%] font-inter font-bold text-base leading-[25.6px]">Reproducir ahora</button></div>
                             </div>
                         </div>
                     </div>
