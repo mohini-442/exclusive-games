@@ -15,7 +15,7 @@ const Luxury = () => {
                 <div className='max-w-[1140px] px-3 mx-auto' data-aos="fade-up"
                     data-aos-offset="300"
                     data-aos-easing="ease-in-sine">
-                    <div className="w-full relative z-[2] px-5 my-[64px] border-[0.5px] bg-[url(./assets/images/luxury-bg.png)] bg-100 bg-no-repeat h-full border-white bg-[#051D23] rounded-[16px] py-[45px] flex items-center flex-col">
+                    <div className="w-full relative z-[3] px-5 my-[64px] border-[0.5px] bg-[url(./assets/images/luxury-bg.png)] bg-100 bg-no-repeat h-full border-white bg-[#051D23] rounded-[16px] py-[45px] flex items-center flex-col">
                         <div className='max-w-[419px]'>
                             <h4 className='text-white text-[32px] font-anton font-normal leading-[41px] text-center'>Luxury</h4>
                             <p className='font-inter font-medium text-[16px] leading-[25px] text-white pt-4 text-center opacity-80'>lleva tu experiencia de juego al siguiente nivel. Con todas las características de la versión Silver y la potencia adicional de la tecnología React .</p>
