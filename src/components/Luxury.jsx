@@ -114,7 +114,7 @@ const Luxury = () => {
                         </div>
                     </div>
                 </div>
-                <img src={sky2} alt="sky1" className='absolute top-[8%] left-[0%] hidden lg:block' />
+                <img src={sky2} alt="sky1" className='absolute top-[8%] left-[0%] z-[-1] hidden lg:block' />
             </div>
         </>
     )

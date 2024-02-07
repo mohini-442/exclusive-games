@@ -23,7 +23,7 @@ const Elegirnos = () => {
                                 data-aos-offset="300"
                                 data-aos-easing="ease-in-sine">
                                 <h2 className=' text-[38px] md:text-[48px] font-normal font-anton text-white text-center lg:text-start'>Más razones para elegirnos</h2>
-                                <div className=' p-[0.5px] max-w-[374px] h-[116px] w-full rounded-[16px] mt-12  duration-[0.5s] hover:scale-[1.02]'>
+                                <div className='p-[0.5px] max-w-[374px] h-[116px] w-full rounded-[16px] mt-12  duration-[0.5s] hover:scale-[1.02]'>
                                     <div className='max-w-[374px] grounded-radiants flex items-center justify-center  h-[116px] rounded-[16px]   bg-[#00141b] p-[24px_56px_24px_56px] gap-[37px]'>
                                         <div className='flex items-center gap-10'>
                                             <img src={bulb} alt="bulb" />
@@ -34,10 +34,10 @@ const Elegirnos = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className=' p-[0.5px] max-w-[374px] h-[116px] w-full rounded-[16px] mt-6  duration-[0.5s] hover:scale-[1.02]'>
+                                <div className='p-[0.5px] max-w-[374px] h-[116px] w-full rounded-[16px] mt-6  duration-[0.5s] hover:scale-[1.02]'>
                                     <div className='max-w-[374px] grounded-radiants flex items-center justify-center h-[116px] rounded-[16px]   bg-[#00141b] p-[24px_56px_24px_56px] gap-[37px]'>
                                         <div className='flex items-center gap-10'>
-                                            <img src={people} alt="bulb" />
+                                            <img src={people} alt="people" />
                                             <div className=''>
                                                 <h3 className='text-white font-anton text-[32px] font-normal'>98%</h3>
                                                 <p className='font-inter font-medium text-[16px] text-white text-nowrap'>Clientes Satisfechas</p>
@@ -45,10 +45,10 @@ const Elegirnos = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className=' p-[0.5px] max-w-[374px] h-[116px] w-full  rounded-[16px] mt-6 duration-[0.5s] hover:scale-[1.02]'>
+                                <div className='p-[0.5px] max-w-[374px] h-[116px] w-full rounded-[16px] mt-6 duration-[0.5s] hover:scale-[1.02]'>
                                     <div className='max-w-[374px] grounded-radiants flex items-center justify-center h-[116px] rounded-[16px]   bg-[#00141b] p-[24px_56px] gap-[37px]'>
                                         <div className='flex items-center gap-10'>
-                                            <img src={ruppee} alt="bulb" />
+                                            <img src={ruppee} alt="ruppee" />
                                             <div className=''>
                                                 <h3 className='text-white font-anton text-[32px] font-normal'>200</h3>
                                                 <p className='font-inter font-medium text-[16px] text-white'>Divisas Disponibles</p>
