@@ -12,8 +12,6 @@ function Myheader() {
                     <button className='bg-gradient hover:text-white duration-[0.5s] font-inter font-bold text-base leading-[25px] p-[13px_46px_13px_46px] rounded-[41px] mt-7 sm:mt-12 relative after:absolute after:content-[url(./assets/images/gline.png)] after:top-[31px] after:left-[-6px] '>Empezar</button>
                 </div>
             </div>
-
-
         </div>
     )
 }

@@ -19,7 +19,7 @@ const Porque = () => {
                         <div className='lg:w-1/2 w-full px-3 pt-14 lg:pt-0' data-aos="fade-right"
                             data-aos-offset="300"
                             data-aos-easing="ease-in-sine">
-                            <img src={casino} alt="casino" className='mx-auto lg:mx-0' />
+                            <img src={casino} alt="casino" className='mx-auto lg:mx-0 object-cover' />
                         </div>
                     </div>
                 </div>

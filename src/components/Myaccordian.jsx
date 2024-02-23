@@ -58,7 +58,7 @@ const Myaccordian = () => {
                         Preguntas más frecuentes
                     </h2>
                     <Accordion
-                        className=" border-[#80898D] border mb-3 md:mb-8 rounded-[10px] py-4 px-5" data-aos="fade-up"
+                        className="border-[#80898D] border mb-3 md:mb-8 rounded-[10px] py-4 px-5" data-aos="fade-up"
                         data-aos-offset="300"
                         data-aos-easing="ease-in-sine"
                         open={open === 1}

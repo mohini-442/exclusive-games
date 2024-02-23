@@ -17,7 +17,7 @@ const Elegirnos = () => {
                             <div className='lg:w-1/2 w-full px-3 flex justify-center lg:justify-start' data-aos="fade-left"
                                 data-aos-offset="300"
                                 data-aos-easing="ease-in-sine">
-                                <img src={imgg} alt="777" className='w-[558px] h-[514px] lg:pr-5' />
+                                <img src={imgg} alt="777" className='w-[90%] lg:w-[558px] lg:h-[514px] lg:pr-5 object-cover rounded-[16px]' />
                             </div>
                             <div className='lg:w-1/2 w-full px-3 flex  flex-col items-center lg:items-start pt-8 lg:pt-0' data-aos="fade-right"
                                 data-aos-offset="300"
